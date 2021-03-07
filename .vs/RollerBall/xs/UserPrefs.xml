@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{82D14C99-A957-EF11-E88D-9B13D1FC77F3}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/RollerAgent.cs">
+    <Files>
+      <File FileName="Assets/RollerAgent.cs" Line="78" Column="63" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RollerBall" expanded="True">
+            <Node name="Assets" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3a6443a7-2e57-42db-903e-7a25dd87c371" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
