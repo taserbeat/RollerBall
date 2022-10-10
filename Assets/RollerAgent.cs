@@ -26,7 +26,7 @@ public class RollerAgent : Agent
         // RollerAgentが床から落下しているとき
         if (this.transform.localPosition.y < 0)
         {
-            // RollerAgentの一と速度をリセット
+            // RollerAgentの位置と速度をリセット
             _rigidBody.angularVelocity = Vector3.zero;
             _rigidBody.velocity = Vector3.zero;
             this.transform.localPosition = new Vector3(0.0f, 0.5f, 0.0f);
@@ -45,7 +45,7 @@ public class RollerAgent : Agent
         sensor.AddObservation(target.localPosition);  //TargetのXYZ座標
         sensor.AddObservation(this.transform.localPosition);  // RollerAgentのXYZ座標
         sensor.AddObservation(_rigidBody.velocity.x);  // RollerAgentのX速度
-        sensor.AddObservation(_rigidBody.velocity.z);  // RollerAgentのX速度
+        sensor.AddObservation(_rigidBody.velocity.z);  // RollerAgentのZ速度
     }
 
     /// <summary>
