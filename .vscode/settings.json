@@ -59,7 +59,13 @@
         "editor.defaultFormatter": "ms-dotnettools.csharp",
         "editor.formatOnSave": true,
     },
-    // "omnisharp.useGlobalMono": "always",  // ユーザー設定で有効にする
+    // omnisharp
+    // https://zenn.dev/leaf/articles/98f02a61440893
+    // https://qiita.com/kyasbal_1994/items/ecf19a3feb60a12a61f9
+    // VSCodeの設定で"omnisharp.useGlobalMono"は廃止となったので、
+    // "brew install mono"でmonoをインストールしておく。
+    // "which mono"で出力されるパスが実際にインテリセンスなどで使われるはず
+    "omnisharp.useModernNet": false,
     // YAML
     "[yaml]": {
         "editor.insertSpaces": true,
